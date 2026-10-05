@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "boutique",
+  "version": "1.0.0",
+  "name": "Boutique",
+  "description": "Une boutique dans l'inventaire avec un système d'argent.",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.boutique.BoutiqueMod"],
+    "client": ["com.boutique.client.BoutiqueClient"]
+  },
+  "depends": {
+    "fabricloader": "*",
+    "fabric-api": "*",
+    "minecraft": "*"
+  }
+}
